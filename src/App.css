@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@theme {
+  --font-nunito: "Nunito", sans-serif; 
+  --color-brand-orange: #DE8A59;
+  --color-brand-purple: #4D2E46;
+  --color-brand-gray-one: #D6D6D6;
+}
